@@ -22,8 +22,10 @@ curl --proto '=https' --tlsv1.2 -sSfL https://solana-install.solana.workers.dev 
 ```
 ```bash
 solana config set --url https://mainnetbeta-rpc.eclipse.xyz/
-* If Command not found
+
 ```
+* If Command not found
+
 ```
 echo 'export PATH="/root/.local/share/solana/install/active_release/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
