@@ -44,7 +44,6 @@ solana config get
 ```bash
 cargo install bitz
 ```
-x
 
 ```bash
 screen -S eclipse
@@ -69,12 +68,3 @@ Other Commands:
   •	View all commands:
 ```bitz -h```
 
-Import to backpack:
-```bash
-solana config get
-```
-copy path of Keypair path 
-```bash
-cat <Keypair path>
-```
-Copy array of number and import them on backpack in private key section
