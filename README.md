@@ -20,19 +20,7 @@ source $HOME/.cargo/env
 ```bash 
 curl --proto '=https' --tlsv1.2 -sSfL https://solana-install.solana.workers.dev | bash
 ```
-```bash
-solana config set --url https://mainnetbeta-rpc.eclipse.xyz/
 
-```
-* If Command not found
-
-```
-echo 'export PATH="/root/.local/share/solana/install/active_release/bin:$PATH"' >> ~/.bashrc
-source ~/.bashrc
-```
-```
-solana --version
-```
 
 
 * Now Create a Wallet
@@ -56,6 +44,20 @@ solana config get
 ```bash
 cargo install bitz
 ```
+```bash
+solana config set --url https://mainnetbeta-rpc.eclipse.xyz/
+
+```
+* If Command not found
+
+```
+echo 'export PATH="/root/.local/share/solana/install/active_release/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+```
+```
+solana --version
+```
+
 
 ```bash
 screen -S eclipse
