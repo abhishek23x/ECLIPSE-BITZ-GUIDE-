@@ -30,6 +30,9 @@ solana config set --url https://mainnetbeta-rpc.eclipse.xyz/
 echo 'export PATH="/root/.local/share/solana/install/active_release/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 ```
+```
+solana --version
+```
 
 
 * Now Create a Wallet
