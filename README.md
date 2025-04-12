@@ -37,6 +37,7 @@ solana-keygen new
 ```bash
 solana config get
 ```
+```
  cat ~/.config/solana/id.json
 ```
 
